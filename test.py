@@ -19,5 +19,3 @@ print(synaptic_weights)
 
 input_layer = training_inputs 
 outputs = sigmoid (np.dot(input_layer, synaptic_weights))
-
-print(outputs)
