@@ -1,24 +1,21 @@
-import numpy as np
+print('Задание 2.1')
+print("=" * 28)
+print("Привет")
+print("друг")
+print("=" * 28 + "\n")
 
-def sigmoid(x):
-    return 1 / (1 + np.exp(-x))
+print('Задание 2.2')
+print("=" * 28)
+print("||{:^24}||".format("Привет"))
+print("||{:^24}||".format("друг"))
+print("=" * 28 + "\n")
 
-training_inputs = np.array([[0,0,1],
-                            [1,1,1],
-                            [1,0,1],
-                            [0,1,1]])
-
-training_outputs = np.array([[0,1,1,0]]).T
-
-np.random.seed(1)
-
-synaptic_weights = 2 * np.random.random((3, 1)) -1
-
-print("Vesa")
-print(synaptic_weights)
-
-input_layer = training_inputs 
-outputs = sigmoid (np.dot(input_layer, synaptic_weights))
-
-
-print(outputs)
+print('Задание 2.3')
+print("=" * 28)
+print("{: <14}{: >14}".format("||", "||"))
+print("{: <14}{: >14}".format("||", "||"))
+print("||{:^24}||".format("Привет"))
+print("||{:^24}||".format("друг"))
+print("{: <14}{: >14}".format("||", "||"))
+print("{: <14}{: >14}".format("||", "||"))
+print("=" * 28 + "\n")
