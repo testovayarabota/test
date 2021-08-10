@@ -6,3 +6,10 @@ print(first_animal, 'спит,', second_animal, 'идёт')
 
 first_name, last_name = input('Введите имя: '), input('Введите фамилию: ')
 print("Вас зовут" '\n' + first_name, '\n' + last_name) 
+
+first_name = input('Введите имя:')
+last_name = input('Введите фамилию:')
+city = input('Введите город проживания:')
+print('=' * 28)
+print('Вас зовут', first_name, last_name)
+print('Вы живете в городе', city)
