@@ -28,3 +28,9 @@ user = input('Введите имя пользователя: ')
 new_file = input('Введите имя файла: ')
 pathfile = "С:/" + user + '/docs/folder/' + new_file + '.txt'
 print('Путь к файлу: ' + pathfile)
+
+a = input('Введите первое слово: ')
+b = input('Введите второе слово: ')
+print(a, b)
+a, b = b, a
+print(a, b)
