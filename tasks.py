@@ -19,3 +19,7 @@ first_name = input('Введите имя пользователя: ')
 intro = "К сожалению, у Вас нет доступа к системе."
 info = "Пожалуйста, обратитесь к системному администратору."
 print(greeting, first_name, '\n' + intro, '\n' + info)
+
+first_city = input('Введите город вылета: ')
+last_city = input('Введите город прилёта: ')
+print(first_city, '--->', last_city)
