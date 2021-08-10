@@ -23,3 +23,8 @@ print(greeting, first_name, '\n' + intro, '\n' + info)
 first_city = input('Введите город вылета: ')
 last_city = input('Введите город прилёта: ')
 print(first_city, '--->', last_city)
+
+user = input('Введите имя пользователя: ')
+new_file = input('Введите имя файла: ')
+pathfile = "С:/" + user + '/docs/folder/' + new_file + '.txt'
+print('Путь к файлу: ' + pathfile)
