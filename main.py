@@ -1,21 +1,21 @@
-print('Задание 2.1')
-print("=" * 28)
-print("Привет")
-print("друг")
-print("=" * 28 + "\n")
+from fastapi import FastAPI, UploadFile, File
+from typing import List
+import shutil
 
-print('Задание 2.2')
-print("=" * 28)
-print("||{:^24}||".format("Привет"))
-print("||{:^24}||".format("друг"))
-print("=" * 28 + "\n")
+app = FastAPI()
 
-print('Задание 2.3')
-print("=" * 28)
-print("{: <14}{: >14}".format("||", "||"))
-print("{: <14}{: >14}".format("||", "||"))
-print("||{:^24}||".format("Привет"))
-print("||{:^24}||".format("друг"))
-print("{: <14}{: >14}".format("||", "||"))
-print("{: <14}{: >14}".format("||", "||"))
-print("=" * 28 + "\n")
+
+@app.post("/")
+async def root(file: UploadFile = File(...)):
+    with open('test.mp4', 'wb') as buffer:
+        shutil.copyfileobj(file.file, buffer)
+    return {"file_name": file.filename}
+
+
+
+@app.post("/img")
+async def up_img(files: List[UploadFile] = File(...)):
+    for img in files:
+        with open(f'{img.filename}', 'wb') as buffer:
+            shutil.copyfileobj(img.file, buffer)
+    return {"file_name": "GOOOD"}
