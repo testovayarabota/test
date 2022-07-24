@@ -488,8 +488,8 @@
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
      inkscape:zoom="2.8"
-     inkscape:cx="176.07143"
-     inkscape:cy="187.5"
+     inkscape:cx="176.42857"
+     inkscape:cy="245"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -1972,9 +1972,9 @@
        transform="matrix(0.45719106,0,0,0.4525858,-290.95314,-64.515226)"
        style="fill:url(#linearGradient2782);fill-opacity:1" />
     <ellipse
-       style="fill:#b6bec2"
+       style="display:inline;fill:#b6bec2"
        id="path871"
-       inkscape:label="{&quot;attr&quot;:&quot;color&quot;,&quot;list&quot;:[{&quot;data&quot;:&quot;-999999999999999&quot;,&quot;param&quot;:&quot;-pbi-1&quot;,&quot;tag&quot;:&quot;@1&quot;}]}"
+       inkscape:label="{&quot;attr&quot;:&quot;color&quot;,&quot;list&quot;:[{&quot;data&quot;:&quot;9999999999&quot;,&quot;param&quot;:&quot;-pbi-2&quot;,&quot;tag&quot;:&quot;@1&quot;}]}"
        ry="26.607143"
        rx="23.392857"
        cy="299.38095"
