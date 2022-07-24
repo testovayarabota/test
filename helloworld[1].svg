@@ -822,9 +822,9 @@
      inkscape:pageshadow="2"
      inkscape:zoom="2.8"
      inkscape:cx="231.78571"
-     inkscape:cy="342.14286"
+     inkscape:cy="341.60714"
      inkscape:document-units="mm"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="g5840-2-0-8-1-2-2"
      showgrid="false"
      units="px"
      inkscape:window-width="1617"
@@ -3831,14 +3831,65 @@
          y="392.19568"
          id="tspan5710-2-8"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.417px;line-height:1.25;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-width:0.344834">.1~</tspan></text>
-    <ellipse
-       style="fill:#00ff00"
-       id="path717"
-       cx="143.03572"
-       cy="433.13095"
-       rx="31.964285"
-       ry="27.5"
-       inkscape:label="{&quot;attr&quot;:&quot;color&quot;,&quot;list&quot;:[{&quot;data&quot;:&quot;-999999999999999&quot;,&quot;param&quot;:&quot;-pbi-4&quot;,&quot;tag&quot;:&quot;@1&quot;}]}"
-       inkscape:highlight-color="#f8808d" />
+    <g
+       class="mark-group"
+       id="g5840-2-0-8-1-2-2"
+       transform="matrix(0.29167452,0,0,0.28827881,-126.23659,397.07092)"
+       style="display:inline;fill:#b6bec2;fill-opacity:1;stroke:#556366;stroke-width:1.0633;stroke-opacity:1"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <g
+         transform="translate(0,200)"
+         id="g5842-8-1-2-6-8-0"
+         style="fill:#b6bec2;fill-opacity:1;stroke:#556366;stroke-width:1.0633;stroke-opacity:1">
+        <rect
+           class="background"
+           width="0"
+           height="0"
+           style="fill:#b6bec2;fill-opacity:1;stroke:#556366;stroke-width:1.0633;stroke-opacity:1"
+           id="rect5844-8-7-4-2-7-2"
+           x="0"
+           y="0" />
+        <g
+           class="mark-rule"
+           id="g5846-7-0-4-3-9-0"
+           style="fill:#b6bec2;fill-opacity:1;stroke:#556366;stroke-width:1.0633;stroke-opacity:1" />
+        <g
+           class="mark-rule"
+           id="g5848-5-8-8-9-7-5"
+           style="fill:#b6bec2;fill-opacity:1;stroke:#556366;stroke-width:1.0633;stroke-opacity:1" />
+        <g
+           class="mark-rule"
+           id="g5850-8-5-3-7-3-1"
+           style="fill:#b6bec2;fill-opacity:1;stroke:#556366;stroke-width:1.0633;stroke-opacity:1" />
+        <g
+           class="mark-text"
+           id="g5852-1-8-7-1-5-8"
+           style="fill:#b6bec2;fill-opacity:1;stroke:#556366;stroke-width:1.0633;stroke-opacity:1" />
+        <g
+           class="mark-path"
+           id="g5854-2-3-9-3-7-0"
+           style="fill:#b6bec2;fill-opacity:1;stroke:#556366;stroke-width:1.0633;stroke-opacity:1">
+          <path
+             inkscape:label="{&quot;attr&quot;:&quot;color&quot;,&quot;list&quot;:[{&quot;data&quot;:&quot;-999999999999999&quot;,&quot;param&quot;:&quot;-pbi-1&quot;,&quot;tag&quot;:&quot;@1&quot;}]}"
+             d="M 974.60524,73.597224 833.76029,72.465918 c 16.41323,-58.217161 47.87069,-109.201631 34.18,-181.891618 l 74.37263,-0.0198 c -17.623,73.688901 11.18657,126.374958 32.56153,182.423916"
+             style="display:inline;fill:#b6bec2;fill-opacity:1;stroke:#556366;stroke-width:1.0633px;stroke-opacity:1"
+             id="path5856-5-6-3-7-14-1"
+             inkscape:connector-curvature="0"
+             sodipodi:nodetypes="ccccc" />
+        </g>
+        <g
+           class="mark-text"
+           id="g5858-7-5-8-9-5-4"
+           style="fill:#b6bec2;fill-opacity:1;stroke:#556366;stroke-width:1.0633;stroke-opacity:1" />
+      </g>
+      <ellipse
+         style="fill:#b6bec2;stroke-width:3.66691"
+         id="path785"
+         cx="1280.1237"
+         cy="186.4118"
+         rx="71.018494"
+         ry="78.668884" />
+    </g>
   </g>
 </svg>
